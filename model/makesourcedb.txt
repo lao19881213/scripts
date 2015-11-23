@@ -1,0 +1,3 @@
+How to run makesourcedb:
+
+makesourcedb format="<" in="/home/lofar/wjv/calibrate.skymodel" out="/data/lofar/output/SB8.MS.dppp/sky"
