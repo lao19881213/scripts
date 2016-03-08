@@ -1,0 +1,53 @@
+#log# Automatic Logger file. *** THIS MUST BE THE FIRST LINE ***
+#log# DO NOT CHANGE THIS LINE OR THE TWO BELOW -* coding: UTF-8 *-
+#log# opts = Struct({'__allownew': True,
+ 'autocall': 2,
+ 'banner': 0,
+ 'colors': 'LightBG',
+ 'ipythondir': '/home/fdg/.casa/ipython',
+ 'logfile': 'ipython-20130808-104015.log',
+ 'messages': 0,
+ 'prompt_in1': 'CASA <\\#>: '})
+#log# args = []
+#log# It is safe to make manual edits below here.
+#log#-----------------------------------------------------------------------
+execfile("/opt/cep/Casa/casapy-41.0.24668-001-64b/lib64/python2.6/assignmentFilter.py")
+ia.oepn('SB6no3_0.ms19.model.tt0'_
+ia.oepn('SB6no3_0.ms19.model.tt0'(
+ia.oepn('SB6no3_0.ms19.model.tt0')
+ia.open('SB6no3_0.ms19.model.tt0')
+csys = ia.coordsys()
+q = csys.increment # see note 1
+print q 
+print q['numeric'][3]
+print q['numeric']
+print q
+a = csys.increment
+a()
+a[3]
+a['numeric'][3]
+a['numeric']
+a()
+a['numeric']
+a = csys.increment()
+a
+a['numeric']
+a['numeric'][3]
+a['numeric'][3] = 1e10
+a
+csys.setincrement(a)
+ia.setcoordsys(csys.torecord())
+ia.close()
+ia.open('SB6no3_0.ms19.model.tt1')
+csys = ia.coordsys()
+a = csys.increment()
+a
+a['numeric'][3] = 1e10
+csys.setincrement(a)
+ia.setcoordsys(csys.torecord())
+ia.close()
+ia.open('SB6no3_0.ms19.model.tt0')
+csys = ia.coordsys()
+a = csys.increment()
+a
+exit()
