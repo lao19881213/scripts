@@ -1,0 +1,1 @@
+I have a few models that include spectral information. The b parameter is robust and the n parameter is number of sky terms in the taylor expansion. I also have some with n3, but these are less robust. I would advise using these models to calibrated the top-end of the band and then work your way down the band to lower frequencies with the LBA derived model - does this make sense.

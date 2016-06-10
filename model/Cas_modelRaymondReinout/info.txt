@@ -1,0 +1,5 @@
+The best one we have is the 69 MHz one (10 arcsec beam and 26k
+components) that we made with Reinout in 2011. I have a BBS and NDPPP
+version and a casa .model image. This model does not contain spectral
+information and has been arbitraritly rescaled to 30 kJy. Let me know
+whether you think this will be useful for you. 

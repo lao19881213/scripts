@@ -1,0 +1,6 @@
+Please find attached the Cas A 69 MHz LBA models that were made by the RRL group. Feel free to use them for your reduction and please keep me posted on the progress and success of using these models for the data. Two notes;
+
+1) This model was made during the early days of LOFAR before the dutch array was finished, so for new data you should use these as a starting model only. In fact you may want to strive towards making better models from your newer data based on this initial model.
+
+2) Please do not distribute this current model, as we have not published it yet.
+
