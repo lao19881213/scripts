@@ -1,0 +1,8 @@
+LSMTool.Steps = [ungroup, group]
+
+LSMTool.Steps.ungroup.Operation = UNGROUP
+
+LSMTool.Steps.group.Operation = GROUP
+LSMTool.Steps.group.Algorithm = single
+
+LSMTool.Steps.group.OutFile = grouped.skymodel
